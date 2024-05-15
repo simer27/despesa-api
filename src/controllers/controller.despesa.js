@@ -15,7 +15,7 @@ const Editar = async (req, res) => {
 };
 
 const Deletar = async (req, res) => {
-  return res.send("aqui devo deletar os dados...");
+  return res.send("aqui devo deletar os dados....");
 };
 
 export default { Listar, Inserir, Editar, Deletar };
